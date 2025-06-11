@@ -20,7 +20,7 @@ __plugin_meta__ = PluginMetadata(
 )
 
 # 数据库路径
-DB_PATH = Path(r"M:\ALL BOT PROGRAM\3099632897-FUNCTION\mikubot\src\plugins\guizujuedou\data.db")
+DB_PATH = Path(r"这里请修改成你需要存放的数据路径，例如M:\BOT\src\plugins\guizujuedou\data.db")
 DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # 全局变量
