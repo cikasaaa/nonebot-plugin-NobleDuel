@@ -4,6 +4,17 @@
 > **玩法灵感来源**：[PcrDuel项目](https://github.com/Rs794613/PcrDuel)  
 > 这是一个老项目了，以前觉得很好玩但是本人又不会写代码所以只能靠AI了，还有很多好玩的功能没有实现，后续优化全看AI给不给力。
 
+## 依赖
+- nonebot2
+- nonebot-adapter-onebot
+- nonebot-plugin-alconna
+- nonebot-plugin-apscheduler
+
+## 安装方法
+- nb plugin install nonebot-plugin-NobleDuel
+  也可以通过 pip 从 PyPI 安装
+- pip install nonebot-plugin-NobleDuel
+
 ## 游戏概述
 贵族决斗是一款基于QQ群的文字互动游戏，玩家通过创建贵族身份、招募干员、参与决斗等方式进行游戏。游戏包含经济系统、干员养成、决斗对战等核心玩法。
 
@@ -95,12 +106,6 @@
 - **购买礼物**：`购买礼物 礼物名`
 - **礼物查询**：`礼物查询`
 - **金币充值**（群主专属）：`充值金币 @用户 数量`
-
-## 依赖
-- nonebot2
-- nonebot-adapter-onebot
-- nonebot-plugin-alconna
-- nonebot-plugin-apscheduler
 
 ![我的照片](./png/1.png)
 ![我的照片](./png/2.png)
