@@ -12,7 +12,7 @@
 
 ## 安装方法
 - nb plugin install nonebot-plugin-NobleDuel
-  也可以通过 pip 从 PyPI 安装
+- 也可以通过 pip 从 PyPI 安装
 - pip install nonebot-plugin-NobleDuel
 
 ## 游戏概述
