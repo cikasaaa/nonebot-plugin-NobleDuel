@@ -17,11 +17,6 @@
 nb plugin install nonebot-plugin-nobleduel
 ```
 
-或使用 pip 安装：
-```bash
-pip install nonebot-plugin-nobleduel
-```
-
 ## 游戏概述
 贵族决斗是一款基于QQ群的文字互动游戏，玩家通过创建贵族身份、招募干员、参与决斗等方式进行游戏。游戏包含经济系统、干员养成、决斗对战等核心玩法。
 
