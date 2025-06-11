@@ -14,7 +14,11 @@
 
 使用 nb-cli 安装：
 ```bash
-nb plugin install nonebot-plugin-nobleduel
+nb plugin install nonebot-plugin-Nobleduel
+```
+使用 pip 安装：
+```bash
+pip install nonebot-plugin-NobleDuel
 ```
 
 ## 游戏概述
