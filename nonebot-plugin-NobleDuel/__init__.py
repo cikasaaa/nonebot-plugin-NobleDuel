@@ -4,15 +4,22 @@ import random
 from datetime import datetime, time
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
-import json
+
 from nonebot import get_driver
 from nonebot.adapters.onebot.v11 import Bot, Event, MessageSegment, GroupMessageEvent
-from nonebot.plugin import PluginMetadata
+from nonebot.plugin import PluginMetadata, require
+
+# 确保这些插件被加载
+require("nonebot_plugin_alconna")
+require("nonebot_plugin_apscheduler")
+
 from nonebot_plugin_alconna import Alconna, on_alconna, Args, At
 from nonebot_plugin_apscheduler import scheduler
+
 from .config import GIFTS, ITEMS, TITLES, OPERATOR_RARITY
 
 # 插件元数据
+__version__ = "0.3.14"
 __plugin_meta__ = PluginMetadata(
     name="贵族决斗",
     description="一个贵族决斗小游戏",
@@ -20,6 +27,11 @@ __plugin_meta__ = PluginMetadata(
     type="application",
     homepage="https://github.com/cikasaaa/nonebot-plugin-NobleDuel",
     supported_adapters={"~onebot.v11"},
+    extra={
+        "author": "ATRI",
+        "priority": 1,
+        "version": __version__,
+    }
 )
 
 # 数据库路径
