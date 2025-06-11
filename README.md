@@ -4,9 +4,7 @@
 > **玩法灵感来源**：[PcrDuel项目](https://github.com/Rs794613/PcrDuel)  
 > 这是一个老项目了，以前觉得很好玩但是本人又不会写代码所以只能靠AI了，还有很多好玩的功能没有实现，后续优化全看AI给不给力。
 
-## 依赖
-- nonebot2
-- nonebot-adapter-onebot
+## 依赖(自动安装)
 - nonebot-plugin-alconna
 - nonebot-plugin-apscheduler
 
