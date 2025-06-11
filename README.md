@@ -96,6 +96,12 @@
 - **礼物查询**：`礼物查询`
 - **金币充值**（群主专属）：`充值金币 @用户 数量`
 
+## 依赖
+- nonebot2
+- nonebot-adapter-onebot
+- nonebot-plugin-alconna
+- nonebot-plugin-apscheduler
+
 ![我的照片](./png/1.png)
 ![我的照片](./png/2.png)
 
