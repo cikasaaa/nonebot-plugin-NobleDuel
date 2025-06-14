@@ -7,6 +7,7 @@
 ## 依赖(自动安装)
 - nonebot-plugin-alconna
 - nonebot-plugin-apscheduler
+- nonebot-plugin-localstore
 
 ## 安装
 
