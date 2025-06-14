@@ -1,3 +1,7 @@
+# 决斗等待时间配置（单位：秒）
+DUEL_WAIT_TIME = 30  # 接受决斗等待时间
+BET_WAIT_TIME = 30   # 下注等待时间
+
 # 礼物配置
 GIFTS = {
     "玩偶": {"affection": 5, "cost": 10},
